@@ -1,0 +1,22 @@
+.avatar {
+  padding: 10px;
+  width: 30%;
+  border: 5px solid;
+  border-radius: 50%;
+  background: cornsilk;
+}
+
+.online {
+  composes: avatar;
+  border-color: chartreuse;
+}
+
+.offline {
+  composes: avatar;
+  border-color: #ff0800;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
